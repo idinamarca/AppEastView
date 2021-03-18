@@ -25,7 +25,7 @@ namespace AppEastView.Controllers
                     IQueryable<Ciudadano> query = from s in db.Ciudadano
                                 orderby s.FechaNacimiento
                                 descending
-                                select s;
+                                select s; 
 
                   
                     return new JsonResult(query.ToList<Ciudadano>()); 
