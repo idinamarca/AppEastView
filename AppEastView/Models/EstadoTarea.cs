@@ -8,7 +8,7 @@ namespace WebApiEastView.Models
     public class EstadoTarea
     {
         public int Id { get; set; }
-        public string NombreTarea { get; set; }   
+        public string Estado_Tarea { get; set; }   
 
     }
 }
