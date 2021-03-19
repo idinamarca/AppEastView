@@ -16,7 +16,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Models\" />
     <Folder Include="WebApi\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EastView.Core\EastView.Core.csproj" />
+    <ProjectReference Include="..\EastView.Infrastructure\EastView.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

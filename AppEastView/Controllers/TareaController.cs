@@ -4,7 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApiEastView.Models;
+using EastView.Core;
+
 
 namespace AppEastView.Controllers
 {
@@ -27,8 +28,7 @@ namespace AppEastView.Controllers
                                 join tipoTarea in db.TipoTarea on post.TipoTareaId equals tipoTarea.Id
                                 join prioridadTarea in db.PrioridadTarea on post.PrioridadTareaId equals prioridadTarea.Id
                                 join diatarea in db.DiaTarea on post.DiaTareaId equals diatarea.Id
-                                select new 
-
+                                select new
                                 {                                 
                                     post.Id,
                                     Ciudadano=ciudadano.Id,
@@ -77,7 +77,6 @@ namespace AppEastView.Controllers
                                  join diatarea in db.DiaTarea on post.DiaTareaId equals diatarea.Id
                                  where ciudadano.Id == idCiudadano
                                  select new
-
                                  {
                                      post.Id,
                                      Ciudadano = ciudadano.Id,
