@@ -1,6 +1,6 @@
 using System;
 
-namespace AppEastView.Models
+namespace EastView.Core.Entities
 {
     public class ErrorViewModel
     {

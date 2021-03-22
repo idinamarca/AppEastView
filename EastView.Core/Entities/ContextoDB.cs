@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebApiEastView.Models;
 using System.Data;
-namespace WebApiEastView.Models
+namespace EastView.Core.Entities
 {
     public class ContextoDB : DbContext
     {

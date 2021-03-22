@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApiEastView.Models
+namespace EastView.Core.Entities
 {
     public class PrioridadTarea
     {
